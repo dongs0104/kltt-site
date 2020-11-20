@@ -1,0 +1,161 @@
+header:
+  title: Welcome to KL TECH!
+  text: "We will make customers trust Us"
+  button: Tell Me More
+  buttonlink: "#services" # "#{section}" or "URL/page link"
+
+services:
+  title: "사업 분야"
+  text: "다양한 ????"
+  section: services
+  list:
+    - title: "SMD(자동화 라인)"
+      desc: "
+      - RLC
+      
+      - LED
+
+      - MLCC
+
+      - 알루미늄(AL) 
+            "
+      icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+    - title: "PBA 조립 및 Soldering"
+      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      icon: fas fa-laptop       
+
+portfolio:
+  title: "Portfolio"
+  text: "Lorem ipsum dolor sit amet consectetur."
+  section: portfolio
+  
+
+timeline:
+  title: "회사 연혁" 
+  text: ""
+  section: timeline
+  events:
+    - title: ""
+      year: "2004"
+      desc: "
+      구미 소재 부품 공급사 설립<br>
+      ㈜ 성보산업 협력사<br>
+      ㈜ 에드뷰 협력사<br>
+      ㈜ 오리온테크놀리지 협력사"
+      image: assets/img/timeline/1.jpg
+      alt: 
+      align: left
+    - title: ""
+      year: "2008"
+      desc: "LG Serveone 협력사<br>
+      중국 REALINK 社 (RCA CABLE) 한국총판"
+      image: assets/img/timeline/2.jpg
+      alt: 
+      align: right
+    - title: ""
+      year: "2009-2010"
+      desc: "법인 전환 ㈜ 케이엘테크<br>
+      백만불 수출탑 수상"
+      image: assets/img/timeline/3.jpg
+      alt: image alt text
+      #align: #default is left       
+    - title: ""
+      year: "2011"
+      desc: " 중국 DONKI 社 한국 총판<br>
+      ㈜ 이피네트시스템즈 협력사"
+      image: assets/img/timeline/4.jpg
+      alt: 
+      align: right
+    - title: ""
+      year: "2019"
+      desc: "㈜ 오리온테크놀리지 협력사 회장"
+      image: assets/img/timeline/4.jpg
+      alt: 
+      align: left
+  end: "Be Part <br> of Our <br> Story!"
+
+about:
+  title: "About Us"
+  text: "our story"
+  section: about
+
+clients:
+  section: clients
+  max-height: 100px
+  horizontal-scrolling: "no" #"yes/no"
+  list:
+    - title: "ORION Technology"
+      url: http://www.oriontechnology.co.kr/main
+      logo: assets/img/clients/orion-logo.jpg
+    - title: "effinet"
+      url: http://www.effinet.co.kr/main/main.php
+      logo: assets/img/clients/effinet-logo.jpg
+    - title: "sesung"
+      url: http://www.sesung.com
+      logo: assets/img/clients/sesung-logo.jpg
+    - title: "GS E & R"
+      url: http://www.gs.co.kr/en/branch/gs-er
+      logo: assets/img/clients/gs-er-logo.png
+    - title: "adview"
+      url: http://www.adview.co.kr
+      logo: assets/img/clients/adview-logo.gif
+    - title: "sic"
+      url: http://www.sungboauto.com
+      logo: assets/img/clients/sic-logo.png
+    - title: "On Face SDC"
+      url: http://onfacesdc.co.kr
+      logo: assets/img/clients/ofs-logo.svg
+    - title: "보성전자"
+      url: https://www.bse.co.kr
+      logo: assets/img/clients/bse-logo.webp
+team:
+  title: "사업 분야"
+  text: "SMD(자동화 라인) & PBA 조립 및 Soldering"
+  subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+  section: team
+  people:
+    - name: "SMD"
+      role: "Lead Designer"
+      image: assets/img/team/1.jpg
+    - name: "Larry Parker"
+      role: "Lead Marketer"
+      image: assets/img/team/2.jpg
+      social:
+        - url: https://twitter.com
+          icon: fab fa-twitter
+        - url: https://facebook.com
+          icon: fab fa-facebook-f
+        - url: https://linkedin.com
+          icon: fab fa-linkedin-in
+    - name: "Diana Perterson"
+      role: "Lead Developer"
+      image: assets/img/team/3.jpg
+      social:
+        - url: https://twitter.com
+          icon: fab fa-twitter
+        - url: https://facebook.com
+          icon: fab fa-facebook-f
+        - url: https://linkedin.com
+          icon: fab fa-linkedin-in
+        
+contact:
+  title: "Contact Us"
+  text: "Lorem ipsum or call 123456789"
+  section: contact
+  
+footer:
+  legal: "Privacy Policy"
+  # social:
+  #   - url: https://twitter.com
+  #     icon: "fab fa-twitter"  
+  #   - url: https://facebook.com
+  #     icon: "fab fa-facebook-f"
+  #   - url: https://linkedin.com
+  #     icon: "fab fa-linkedin-in"
+  #   - url: https://github.com/raviriley/agency-jekyll-theme
+  #     icon: "fab fa-github"
+  #   - url: https://instagram.com
+  #     icon: "fab fa-instagram"
+
+
+# {{ site.data.sitetext.ex.ex | markdownify | default: example }}
